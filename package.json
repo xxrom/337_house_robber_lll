@@ -1,0 +1,12 @@
+{
+  "name": "337_house_robber_lll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+,
+  "nodemonConfig": { "delay": "1" },
+  "scripts": 
+  {
+    "dev": "nodemon --exec python3 main.py ./main.py" 
+  }
+}
