@@ -16,7 +16,8 @@ f = {
 }
 to parent -> 1
 b = {
-  0: { path: _- + maxChildSum(1) [3(a->1)], sum: 3}, # maxChildSum - 1 => any, 0 - only 0 (without node)
+  # maxChildSum - 1 => any, 0 - only 0 (without node)
+  0: { path: _- + maxChildSum(1) [3(a->1)], sum: 3},
   1: { path: b- + maxChildSum(0) [0], sum: 2}
 }
 to parent -> c (root) -> go to leaf in right child
